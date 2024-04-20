@@ -15,3 +15,10 @@ const numero2 = -2;
 //        --> En caso afirmativo imprima en pantalla "Resp=1"
 //        --> En caso negativo imprima en pantalla   "Resp=2"
 
+if (numero1 > 5) {
+    if (numero2 > 0) {
+        alert('Resp=1');
+    } else {
+        alert('Resp=2');
+    }
+}
